@@ -1,0 +1,13 @@
+body {
+    background-color: #DDDDDD;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-width: 300px;
+}
+#music {
+  display: none;
+}
+.login{font-family:arial;padding:90px 0 0 0}.login .logo{display:block;border-radius: 75px;margin:0 auto 30px}.login a,.login a:visited{text-decoration:underline;color:inherit}ul.notice{margin:30px auto;width:300px;text-align:center;list-style-position:inside;font-size:15px;padding:20px 30px;border-radius:3px}ul.notice.errors{background-color:#fff4f4;border:1px solid #f50909;color:#f50909}ul.notice.success{background-color:#d7eacd;border:1px solid #6fae4f;color:#6fae4f}ul.notice li{padding:5px 0}.vertical-form{margin:0 auto}.vertical-form legend{width:100%;font-size:24px;font-weight:500;text-align:center;margin:0 0 30px 0}.vertical-form input[type='text'],.vertical-form input[type='password'],.vertical-form input[type='number']{border:1px #c1c1c1 solid;color:#c1c1c1;height:50px;font-size:18px}.vertical-form input[type='text'],.vertical-form input[type='password'],.vertical-form input[type='submit'],.vertical-form input[type='number']{display:block;margin:0 auto 18px auto;width:323px;text-align:center;border-radius:0px;color:#2d2d2d;outline:none;font-family:inherit}.vertical-form input[type='submit']{-webkit-appearance:none;color:#fff;background:#00ADE0;border:none;height:57px;width:327px;font-size:15px;font-weight:400;outline:0;text-transform:uppercase;letter-spacing:1.5px;cursor:pointer}.vertical-form input:hover[type='submit']{background-color:#008AC3;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease}.vertical-form .footer{text-align:center}.vertical-form .footer p:first-child{color:#222}.vertical-form .footer a:first-child{border-bottom:solid 1px #ccc;text-decoration:none}.vertical-form .footer p:nth-child(2) a{border-bottom:solid 1px #000} @media (max-width:768px){.login{padding:10px 0 0 0}}
