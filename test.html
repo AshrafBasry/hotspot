@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>HD Test Stream NO NAME Network</title>
+<link rel="icon" href="favicon.png" />
+<meta http-equiv="expires" content="-1" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+<style>
+body {
+  background: url('bein.png') no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+  h1 {
+    color: #ffffff;
+  }
+  div {
+    margin-bottom: 50px;
+  }
+  .logo {
+    width: 200px;
+    height: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  .google {
+    width: 150px;
+    height: 75px;
+  }
+  .vlc {
+    width: 100px;
+    height: 100px;
+  }
+</style>
+</head>
+<body>
+  <center>
+    <div>
+        <a href="http://google.com"><img src="google.png" class="google"/></a>
+        <img src="logo.png" class="logo"/>
+        <a href="http://get.videolan.org/vlc/2.2.4/win32/vlc-2.2.4-win32.exe"><img src="vlc.png" class="vlc" /></a>
+        <a href="http://get.videolan.org/vlc/2.2.4/win32/vlc-2.2.4-win32.exe"><img src="firefox.png" class="vlc" /></a>
+    </div>
+
+    <embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org" version="VideoLAN.VLCPlugin.2"
+    width="620"
+    height="480"
+    id="vlc"
+    </embed>
+  </center>
+
+<script>
+var vlc = document.getElementById("vlc");
+vlc.playlist.add("rtp://@239.1.1.20:1055", "HD Stream");
+vlc.playlist.play();
+vlc.video.deinterlace.enable("blend");
+</script>
+</body>
+</html>
